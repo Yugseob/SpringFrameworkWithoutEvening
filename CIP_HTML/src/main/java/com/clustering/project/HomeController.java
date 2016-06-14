@@ -40,4 +40,9 @@ public class HomeController {
 	public void login(Locale locale, Model model) {
 		
 	}
+
+//	@RequestMapping(value = "/*", method = RequestMethod.GET)
+	public void bypass() {
+		
+	}
 }

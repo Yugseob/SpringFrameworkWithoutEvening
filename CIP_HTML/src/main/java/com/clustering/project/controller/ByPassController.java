@@ -14,23 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * get it Mapping classlevel (JavaBean, HttpServletRequest, Model, View, ModelAndView)
  */
 
-// ? delete @Controller, 
-@Controller
-public class OrganizationController {
+//@Controller
+public class ByPassController {
 
-	// ? add View class
-	@RequestMapping(value = "/organization/edit")
-	public void edit() {
-	}
-
-	
-	// ? delete only method = RequestMethod.GET in @RequestMapping 
-	@RequestMapping(value = "/organization/read")
-	public void read() {
-
-	}
-
-	@RequestMapping(value = "/organization/list")
-	public void list() {
+	// by pass URL class
+	@RequestMapping(value = "/*/*")
+	public void byPass() {
 	}
 }
